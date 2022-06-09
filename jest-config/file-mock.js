@@ -1,5 +1,5 @@
 module.exports = {
   process() {
-    return `module.exports = 'test-file-stub'`;
+    return { code: `module.exports = 'test-file-stub'` };
   },
 };
