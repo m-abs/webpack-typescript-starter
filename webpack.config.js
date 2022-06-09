@@ -34,7 +34,10 @@ module.exports = function () {
   const isEnvProduction = process.env.NODE_ENV === 'production';
 
   const commonConfig = {
-    entry: './src/index.ts',
+    entry: {
+      main: './src/index.ts',
+      comic: './src/ComicBookPage.ts'
+    },
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),

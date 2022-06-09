@@ -1,0 +1,37 @@
+{
+  "narration": [
+    {
+      "narration": [
+        {
+          "audio": "title.mp3#t=0,2.194",
+          "text": "comicpadding1.html#iigw_002c"
+        },
+        {
+          "audio": "audio.mp3#t=0,3.000",
+          "text": "comicpadding1.html#image00001"
+        },
+        {
+          "audio": "audio.mp3#t=3.000,4.493",
+          "text": "comicpadding1.html#xfig_0001"
+        },
+        {
+          "audio": "audio.mp3#t=4.493,8.493",
+          "text": "comicpadding1.html#xfig_0002"
+        },
+        {
+          "audio": "audio.mp3#t=8.493,12.193",
+          "text": "comicpadding1.html#xfig_0003"
+        },
+        {
+          "audio": "audio.mp3#t=12.193,13.093",
+          "text": "comicpadding1.html#xfig_0004"
+        },
+        {
+          "audio": "audio.mp3#t=13.093,18",
+          "text": "comicpadding1.html#xfig_0005"
+        }
+      ]
+    }
+  ],
+  "role": "section"
+}
