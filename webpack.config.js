@@ -48,18 +48,13 @@ module.exports = function () {
       new CopyPlugin({
         patterns: [
           {
-            from: 'public',
-            globOptions: {
-              ignore: [
-                '**/index.html'
-              ]
-            }
+            from: 'public'
           },
         ],
       }),
       new HtmlWebpackPlugin({
-        inject: true,
-        template: resolveApp('public/index.html'),
+        inject: false,
+        template: resolveApp('src/index.html'),
         ...getEnvVariables()
       }),
       new MiniCssExtractPlugin({ filename: '[name].bundle.css' }),

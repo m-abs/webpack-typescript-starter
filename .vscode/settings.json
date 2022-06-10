@@ -8,5 +8,8 @@
         "iigw",
         "xfig",
         "xkcd"
-    ]
+    ],
+    "files.exclude": {
+        "**/node_modules": true
+    }
 }
